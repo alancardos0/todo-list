@@ -1,0 +1,79 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+ background-image: linear-gradient(to bottom, rgb(6, 4, 167), rgba(109, 215, 253, 0.857));
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+  .box {
+  width: 400px;
+  height: 600px;
+  background: #fff;
+  text-align: center;
+  }
+  body {
+  margin: 0px;
+  }
+
+ #titulo{
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: bold; /*comenta em negrito */
+ }
+ 
+ #tarefaInput[type=text] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.btn-thrash {
+  background-color: rgb(216, 63, 63); 
+  cursor: pointer; 
+  margin: 2px;
+  float: right;
+  height: 25px;
+  width: 25px;
+}
+
+.btn-thrash:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.btn-add{
+  background-color: rgb(43, 255, 0); 
+  padding: 12px 20px; 
+  cursor: pointer; 
+}
+.btn-add:hover{
+  background-color:darkgreen
+}
+li {
+  list-style-type: none; 
+  background:rgb(233, 233, 233);
+  margin: 2px;
+  width: 80%;
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+li:hover{
+  background: rgb(160, 160, 160);
+  font-style: italic
+}
+.checkbox-task{
+  padding: 6px 10px; 
+  cursor: pointer; 
+  margin: 2px;
+  float: left;
+  height: 25px;
+  width: 25px;
+}
+#listaAfazer{
+  margin: 0px;
+  padding-inline-start: 0px;
+}
